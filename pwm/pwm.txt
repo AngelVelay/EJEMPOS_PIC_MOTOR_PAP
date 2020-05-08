@@ -1,0 +1,19 @@
+int long tlong, i;
+void main() {
+  ANSEL  = 0x04;
+  ANSELH = 0;
+  TRISD0_bit = 0;
+  TRISD1_bit = 0;
+  while (1) {
+      tlong = adc_read(2);
+      for(i=0;i<=1022;i++){
+          if(i>=tlong){
+             rD0_bit=0;
+             rD1_bit=0;
+          }else{
+             rD0_bit=1;
+             rD1_bit=1;
+          }
+      }
+  }
+}

@@ -1,0 +1,58 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+021     main.@SCRATCH1
+022     @delay_ms1.P1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @delay_ms1
+000019  @cinit1
+000019  main
+000023  @cinit2
+
+Project Directory:
+    E:\Dropbox\Blogger\Step Motor\Unipolar\CCS\
+
+Project Files:
+    Unipolar.c                                              [23-feb-15 18:39  CRC=44B76E6B]
+    C:\Program Files (x86)\PICC\Devices\16f877A.h           [03-jul-13 14:28  CRC=4E65664C]
+
+Source signature=E1823B03
+
+Units:
+    Unipolar (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   Unipolar.xsym
+    Errors:      Unipolar.err
+    Ext Symbols: Unipolar.esym
+    INHX8:       Unipolar.hex
+    Symbols:     Unipolar.sym
+    List:        Unipolar.lst
+    Debug/COFF:  Unipolar.cof
+    Project:     Unipolar.ccspjt
+    Call Tree:   Unipolar.tre
+    Statistics:  Unipolar.STA

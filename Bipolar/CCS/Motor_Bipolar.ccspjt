@@ -1,0 +1,19 @@
+[PROJECT]
+Target=Motor_Bipolar.hex
+Processor_Text=PIC16F877A
+CCSVersion=5.008
+Compiler=PCM
+[Target Data]
+FileList=Motor_Bipolar.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[Motor_Bipolar.c]
+Type=4
+[mru-list]
+1=Motor_Bipolar.c
+[Units]
+Count=1
+1=Motor_Bipolar (main)
+[Opened Files]
+1=Motor_Bipolar.c
+2=
